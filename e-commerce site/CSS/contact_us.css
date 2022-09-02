@@ -1,0 +1,80 @@
+.contact{
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2{
+    font-size: 36px;
+}
+
+.box{
+    display: flex;    
+    margin-top: 100px;
+    flex-wrap: wrap;    
+}
+
+.image{
+    margin: 100px;    
+}
+
+.contactForm{
+    border: 2px solid black;    
+    width: 450px;
+    display: flex;
+    justify-content: center;    
+}
+
+.help{
+    margin: 20px 0;    
+}
+
+
+.input{
+    display: flex;
+    margin-bottom: 10px;    
+}
+
+label{
+    width: 100px;
+}
+
+input{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+textarea{
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+    resize: none;
+}
+
+button{
+    width: 100px;
+    background: black;
+    color: white;
+    border: none;    
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: grey;
+}
