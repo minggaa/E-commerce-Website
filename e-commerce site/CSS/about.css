@@ -1,0 +1,60 @@
+.body-box{
+    padding: 60px 0 80px;
+    background: #FEFEFE;
+}
+
+.ab-container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
+.line{
+    content: "";
+    background-color: #171717;
+    border: 1px solid #171717;
+    margin: 9px 80px 0;
+}
+
+.small-box{
+    max-width: 1080px;
+    margin:auto;
+    padding: 30px 25px 50px 25px;
+}
+
+.flex{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 1px 3px 4px 0 rgba(23, 23, 23, 0.4);
+    width: 100%;
+    height: auto;
+    max-height: 30px;
+    transition: max-height 0.8s; 
+    overflow: hidden;
+    padding: 0 5px 5px;
+}
+.card:hover{
+    max-height: 360px;
+}
+
+.card p{
+    padding: 0 0 5px;
+}
+
+.flexitem{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 300px;
+    margin: 30px 0; 
+}
